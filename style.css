@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.main {
+  width: 100px;
+ }
+#fusname { width: 100%; text-align: right }
+
+.container {
+  position: absolute; left: 37%; top: 20%;
+  width: 300px;
+  height: 300px;
+ }
+
+.pole {
+  position: relative;
+  left: 0; top: 0;
+  width: 298px;
+  height: 298px;
+  float:left;
+  display: block;
+ }
+.pole div {
+  position: relative; left:0;
+  top: 0;
+  float: left;
+  width: 100%;
+  height: 33%;
+ }
+.pole div input {
+  width: 32%;
+  height: 100%;
+  text-align: center;
+  cursor: default;
+  z-index: 0;
+  float:left;
+  font-weight: bold;
+  font-size: 36px;
+ }
+.pole .wline {
+  position: absolute; left: 0; top: 0;
+  width: 100%;
+  z-index: 1;
+  display: none;
+ }

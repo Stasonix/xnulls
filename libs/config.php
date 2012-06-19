@@ -1,0 +1,1 @@
+<?php	class Config {	protected $HOST = "localhost";	protected $ROOT = "root";	protected $PSW  = "jquery123";	protected $DB   = "test";}
